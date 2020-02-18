@@ -1,0 +1,21 @@
+step deploy static react web page to github
+1. Buka github.com lalu login
+2. Buat repo kosong di github, sesuaikan namanya dengan project yg ada di local
+3. Set utk TIDAK membuat file readme.md
+4. Setelah berhasil copy link (https atau ssh)
+5. buka command line di komputer local, masuk ke direktori/repo local
+6. ketik perintah : git remote add origin <link utk repo di github>
+cth: git remote add origin https://github.com/bimon-alta/static-reactjs-pocket-monsters.git
+
+7. lanjut ketik : yarn add gh-pages
+
+8. Lakukan penyesuaian konfigurasi di file package.json
+a. tambahkan new key-value entry, di bawah "private":true :
+"homepage": "https://bimon-alta.github.io/static-reactjs-pocket-monsters"
+
+b. lalu di "scripts", setelah value "eject":xxx, tambahkan:
+"predeploy": "yarn build",
+"deploy": "gh-pages -d build"
+
+9. kembali ke command line, ketik: yarn deploy
+10. Terkadang jika memakai terminal dari vscode dan config global git utk username/email, name dan password blm ada maka akan gagal tanpa ada prompt utk authentikasi/login. Jika pakai bash terminal bawaan git utk windows, maka akan muncul login prompt.
