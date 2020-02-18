@@ -19,3 +19,7 @@ b. lalu di "scripts", setelah value "eject":xxx, tambahkan:
 
 9. kembali ke command line, ketik: yarn deploy
 10. Terkadang jika memakai terminal dari vscode dan config global git utk username/email, name dan password blm ada maka akan gagal tanpa ada prompt utk authentikasi/login. Jika pakai bash terminal bawaan git utk windows, maka akan muncul login prompt.
+
+11. Lanjut ketik git add -A
+12. git commit -m "<commit message>"
+13. git push origin master
