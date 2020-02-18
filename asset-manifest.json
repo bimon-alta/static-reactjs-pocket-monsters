@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static-reactjs-pocket-monsters/static/css/main.70194629.chunk.css",
+    "main.js": "/static-reactjs-pocket-monsters/static/js/main.ce1e1855.chunk.js",
+    "main.js.map": "/static-reactjs-pocket-monsters/static/js/main.ce1e1855.chunk.js.map",
+    "runtime-main.js": "/static-reactjs-pocket-monsters/static/js/runtime-main.dc1dd9be.js",
+    "runtime-main.js.map": "/static-reactjs-pocket-monsters/static/js/runtime-main.dc1dd9be.js.map",
+    "static/js/2.1f3314c8.chunk.js": "/static-reactjs-pocket-monsters/static/js/2.1f3314c8.chunk.js",
+    "static/js/2.1f3314c8.chunk.js.map": "/static-reactjs-pocket-monsters/static/js/2.1f3314c8.chunk.js.map",
+    "index.html": "/static-reactjs-pocket-monsters/index.html",
+    "precache-manifest.ab0cda3a21740861fbd4a0909dcbaed3.js": "/static-reactjs-pocket-monsters/precache-manifest.ab0cda3a21740861fbd4a0909dcbaed3.js",
+    "service-worker.js": "/static-reactjs-pocket-monsters/service-worker.js",
+    "static/css/main.70194629.chunk.css.map": "/static-reactjs-pocket-monsters/static/css/main.70194629.chunk.css.map",
+    "static/js/2.1f3314c8.chunk.js.LICENSE.txt": "/static-reactjs-pocket-monsters/static/js/2.1f3314c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc1dd9be.js",
+    "static/js/2.1f3314c8.chunk.js",
+    "static/css/main.70194629.chunk.css",
+    "static/js/main.ce1e1855.chunk.js"
+  ]
+}
